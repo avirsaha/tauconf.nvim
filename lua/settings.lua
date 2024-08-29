@@ -45,4 +45,4 @@ set.undofile = true -- Enable persistent undo
 set.updatetime = 300
 
 -- Color scheme
-vim.cmd 'colorscheme catppuccin' -- Set the color scheme
+-- vim.cmd 'colorscheme catppuccin' -- Set the color scheme -- set from catppuccin.lua

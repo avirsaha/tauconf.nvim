@@ -83,9 +83,9 @@ return {
     }
 
     -- Optional: Keymaps for Treesitter commands
-    local map = require('utils').keymaps -- Setting up alias
-    map('n', '<leader>ti', ':TSInstall<CR>', { noremap = true, silent = true, desc = 'Install Treesitter parser' })
-    map('n', '<leader>tu', ':TSUpdate<CR>', { noremap = true, silent = true, desc = 'Update Treesitter parser' })
+    --local map = require('utils').keymaps -- Setting up alias
+    vim.keymap.set('n', '<leader>ti', ':TSInstall<CR>', { noremap = true, silent = true, desc = 'Install Treesitter parser' })
+    vim.keymap.set('n', '<leader>tu', ':TSUpdate<CR>', { noremap = true, silent = true, desc = 'Update Treesitter parser' })
   end,
 
   -- Dependencies for Treesitter

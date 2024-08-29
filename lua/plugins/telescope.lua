@@ -33,13 +33,13 @@ return {
     -- Load telescope extensions if any
     -- telescope.load_extension('fzy_native')  -- example extension
 
-    local map = require('utils').keymap -- setting up alias
+    --local map = require('utils').keymap -- setting up alias
 
     -- Setting up telescope-specific keymaps
-    map.set('n', '<leader>ff', '<cmd>Telescope find_files<cr>', { desc = 'fuzzy find files in cwd' })
-    map.set('n', '<leader>fg', '<cmd>Telescope live_grep<cr>', { desc = 'fuzzy find recent files' })
-    map.set('n', '<leader>fb', '<cmd>Telescope buffers<cr>', { desc = 'find string in cwd' })
-    map.set('n', '<leader>fs', '<cmd>Telescope git_status<cr>', { desc = 'find string under cursor in cwd' })
-    map.set('n', '<leader>fc', '<cmd>Telescope git_commits<cr>', { desc = 'find todos' })
+    vim.keymap.set('n', '<leader>ff', '<cmd>Telescope find_files<cr>', { desc = 'fuzzy find files in cwd' })
+    vim.keymap.set('n', '<leader>fg', '<cmd>Telescope live_grep<cr>', { desc = 'fuzzy find recent files' })
+    vim.keymap.set('n', '<leader>fb', '<cmd>Telescope buffers<cr>', { desc = 'find string in cwd' })
+    vim.keymap.set('n', '<leader>fs', '<cmd>Telescope git_status<cr>', { desc = 'find string under cursor in cwd' })
+    vim.keymap.set('n', '<leader>fc', '<cmd>Telescope git_commits<cr>', { desc = 'find todos' })
   end,
 }

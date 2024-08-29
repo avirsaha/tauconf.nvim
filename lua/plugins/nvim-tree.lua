@@ -35,8 +35,8 @@ return {
         ['<leader>d'] = 'delete', -- Delete a file
       },
     }
-    map = require('utils').keymap
+    --map = require('utils').keymap
     -- Keymap to toggle Neo-tree visibility
-    map('n', '<leader>e', ':Neotree toggle<CR>', { noremap = true, silent = true, desc = 'Toggle Neo-tree' })
+    vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', { noremap = true, silent = true, desc = 'Toggle Neo-tree' })
   end,
 }

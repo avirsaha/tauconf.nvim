@@ -24,11 +24,11 @@ return {
       status_formatter = nil, -- Customize the status line format (optional)
     }
 
-    local map = require('utils').keymap
+    --local map = require('utils').keymap
 
-    map('n', '<leader>gs', '<cmd>Gitsigns stage_hunk<CR>', { noremap = true, silent = true, desc = 'Stage hunk' })
-    map('n', '<leader>gu', '<cmd>Gitsigns undo_stage_hunk<CR>', { noremap = true, silent = true, desc = 'Undo stage hunk' })
-    map('n', '<leader>gp', '<cmd>Gitsigns preview_hunk<CR>', { noremap = true, silent = true, desc = 'Preview hunk' })
-    map('n', '<leader>gd', '<cmd>Gitsigns diffthis<CR>', { noremap = true, silent = true, desc = 'Git diff' })
+    vim.keymap.set('n', '<leader>gs', '<cmd>Gitsigns stage_hunk<CR>', { noremap = true, silent = true, desc = 'Stage hunk' })
+    vim.keymap.set('n', '<leader>gu', '<cmd>Gitsigns undo_stage_hunk<CR>', { noremap = true, silent = true, desc = 'Undo stage hunk' })
+    vim.keymap.set('n', '<leader>gp', '<cmd>Gitsigns preview_hunk<CR>', { noremap = true, silent = true, desc = 'Preview hunk' })
+    vim.keymap.set('n', '<leader>gd', '<cmd>Gitsigns diffthis<CR>', { noremap = true, silent = true, desc = 'Git diff' })
   end,
 }
