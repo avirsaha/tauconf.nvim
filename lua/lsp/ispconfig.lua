@@ -6,9 +6,9 @@ return {
     { 'folke/neodev.nvim', opts = {} },
   },
   config = function()
-    local lspconfig = require 'lspconfig'
+    local lspconfig = require 'lsp.lspconfig'
     local mason_lspconfig = require 'mason-lspconfig'
-    local server_configurations = require 'plugins.servers'
+    local server_configurations = require 'lsp.servers'
 
     local on_attach = function(client, bufnr)
       -- Format on save

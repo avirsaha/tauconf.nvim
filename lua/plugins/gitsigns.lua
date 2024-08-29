@@ -17,11 +17,11 @@ return {
       numhl = false, -- Highlight the line number
       linehl = false, -- Highlight the line with changes
       word_diff = false, -- Enable word diffing
-      watch_index = {
-        interval = 1000, -- Check for changes every second
-      },
-      update_debounce = 100, -- Debounce time for updates (in ms)
-      status_formatter = nil, -- Customize the status line format (optional)
+      --watch_index = {
+        --interval = 1000, -- Check for changes every second
+      --},
+      --update_debounce = 100, -- Debounce time for updates (in ms)
+      --status_formatter = nil, -- Customize the status line format (optional)
     }
 
     --local map = require('utils').keymap
