@@ -19,7 +19,7 @@ return {
         'tsserver',
         'pyright',
         -- "tailwindcss",
-        'ccls',
+        -- 'ccls',
         'lua_ls',
       },
     }
