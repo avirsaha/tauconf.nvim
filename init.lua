@@ -5,7 +5,7 @@
 require 'utils'
 
 -- Load plugins
-require 'lazy'
+require 'lazy-setup'
 
 -- Set up Neovim settings
 require 'settings'
