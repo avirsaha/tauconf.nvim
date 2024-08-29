@@ -12,8 +12,8 @@ return {
       close_if_last_window = true, -- Close the tree if it was the last window
       popup_border_style = 'rounded', -- Style of the popup borders
       window = {
-        position = 'left', -- Open neo-tree on the left side
-        width = 30, -- Width of the neo-tree window
+        position = 'right', -- Open neo-tree on the left side
+        width = 25, -- Width of the neo-tree window
       },
       filesystem = {
         filtered_items = {
