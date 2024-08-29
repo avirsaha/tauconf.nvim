@@ -1,5 +1,5 @@
 -- Add required path for debugging
-package.path = package.path .. ';./lua/?.lua;./lua/?/init.lua'
+--package.path = package.path .. ';./lua/?.lua;./lua/?/init.lua'
 
 -- Load utility functions
 require 'utils'
