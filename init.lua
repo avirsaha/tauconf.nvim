@@ -4,11 +4,11 @@
 -- Load utility functions
 require 'utils'
 
--- Load plugins
-require 'lazy-setup'
-
 -- Set up Neovim settings
 require 'settings'
+
+-- Load plugins
+require 'lazy-setup'
 
 -- Set up key mappings
 require 'keymaps'

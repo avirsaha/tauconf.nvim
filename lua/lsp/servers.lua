@@ -3,7 +3,7 @@ local M = {}
 M.servers = {
   -- TypeScript server
   ['tsserver'] = function(on_attach, capabilities)
-    require('lspconfig').tsserver.setup {
+    require('lsp.lspconfig').tsserver.setup {
       on_attach = on_attach,
       capabilities = capabilities,
     }
@@ -11,7 +11,7 @@ M.servers = {
 
   -- CSS server
   -- ["cssls"] = function(on_attach, capabilities)
-  -- require("lspconfig").cssls.setup({
+  -- require("lsp.lspconfig").cssls.setup({
   -- on_attach = on_attach,
   -- capabilities = capabilities,
   -- })
@@ -19,7 +19,7 @@ M.servers = {
 
   -- TailwindCSS server
   -- ["tailwindcss"] = function(on_attach, capabilities)
-  -- require("lspconfig").tailwindcss.setup({
+  -- require("lsp.lspconfig").tailwindcss.setup({
   -- on_attach = on_attach,
   -- capabilities = capabilities,
   -- })
@@ -27,7 +27,7 @@ M.servers = {
 
   -- HTML server
   -- ["html"] = function(on_attach, capabilities)
-  -- require("lspconfig").html.setup({
+  -- require("lsp.lspconfig").html.setup({
   -- on_attach = on_attach,
   -- capabilities = capabilities,
   -- })
@@ -35,7 +35,7 @@ M.servers = {
 
   -- JSON server
   ['jsonls'] = function(on_attach, capabilities)
-    require('lspconfig').jsonls.setup {
+    require('lsp.lspconfig').jsonls.setup {
       on_attach = on_attach,
       capabilities = capabilities,
     }
@@ -43,7 +43,7 @@ M.servers = {
 
   -- ESLint server
   -- ["eslint"] = function(on_attach, capabilities)
-  -- require("lspconfig").eslint.setup({
+  -- require("lsp.lspconfig").eslint.setup({
   -- on_attach = on_attach,
   -- capabilities = capabilities,
   -- })
@@ -51,7 +51,7 @@ M.servers = {
 
   -- Python server
   ['pyright'] = function(on_attach, capabilities)
-    require('lspconfig').pyright.setup {
+    require('lsp.lspconfig').pyright.setup {
       on_attach = on_attach,
       capabilities = capabilities,
     }
@@ -59,7 +59,7 @@ M.servers = {
 
   -- Lua server
   ['lua_ls'] = function(on_attach, capabilities)
-    require('lspconfig').lua_ls.setup {
+    require('lsp.lspconfig').lua_ls.setup {
       on_attach = on_attach,
       capabilities = capabilities,
       settings = {
@@ -84,7 +84,7 @@ M.servers = {
 
   -- C/C++ server
   ['clangd'] = function(on_attach, capabilities)
-    require('lspconfig').clangd.setup {
+    require('lsp.lspconfig').clangd.setup {
       on_attach = on_attach,
       capabilities = capabilities,
     }
