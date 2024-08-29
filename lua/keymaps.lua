@@ -26,6 +26,6 @@ vim.keymap.set('n', '<leader>w', vim.cmd.w, opts)
 -- Visual mode mappings
 -- vim.keymap.set('v', '<', '<gv', opts)
 -- vim.keymap.set('v', '>', '>gv', opts)
-map('v', '<leader>em', '<Esc>', opts)
+--map('v', '<leader>em', '<Esc>', opts)
 
 -- Plugin specific keymaps can be found in there respective config files.
