@@ -1,6 +1,6 @@
 return {
   -- installation
-  'nvim-telescope/telescope.nvim',
+  'avirsaha/telescope.nvim',
   -- tag = '0.1.6',
   dependencies = { 'nvim-lua/plenary.nvim' },
   config = function()

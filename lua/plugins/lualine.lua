@@ -1,5 +1,5 @@
 return {
-  'nvim-lualine/lualine.nvim', -- Plugin repository
+  'avirsaha/lualine.nvim', -- Plugin repository
   dependencies = { 'nvim-tree/nvim-web-devicons' }, -- Optional: For file icons in the status line
 
   config = function()
