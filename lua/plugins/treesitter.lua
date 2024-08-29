@@ -1,6 +1,5 @@
 return {
   'nvim-treesitter/nvim-treesitter',
-require("lazy").setup{{ import = "slydragonn.plugins"}, { import = "slydragonn.plugins.lsp"}}, {
   build = ':TSUpdate', -- Automatically update parsers after installation
 
   config = function()

@@ -12,11 +12,8 @@ return {
       close_if_last_window = true, -- Close the tree if it was the last window
       popup_border_style = 'rounded', -- Style of the popup borders
       window = {
-        position = 'right', -- Open neo-tree on the right side
+        position = 'left', -- Open neo-tree on the left side
         width = 30, -- Width of the neo-tree window
-        mapping = {
-          ['<leader>e'] = 'toggle', -- Toggle the neo-tree window with Ctrl+E
-        },
       },
       filesystem = {
         filtered_items = {
@@ -38,5 +35,8 @@ return {
         ['<leader>d'] = 'delete', -- Delete a file
       },
     }
+    map = require('utils').keymap
+    -- Keymap to toggle Neo-tree visibility
+    map('n', '<leader>e', ':Neotree toggle<CR>', { noremap = true, silent = true, desc = 'Toggle Neo-tree' })
   end,
 }
