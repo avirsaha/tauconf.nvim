@@ -24,6 +24,8 @@ set.hlsearch = true -- Highlight search results
 set.termguicolors = true -- Enable true color support
 set.cursorline = true -- Highlight the current line
 set.wrap = false -- Disable line wrapping
+vim.o.termguicolors = true
+vim.o.background = "dark"
 
 -- Splits
 set.splitright = true -- Vertical splits to the right
