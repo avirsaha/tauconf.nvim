@@ -9,19 +9,19 @@ local opts = { noremap = true, silent = true }
 -- vim.keymap.set('n', '<leader>ff', '<cmd>Telescope find_files<cr>', opts)
 -- vim.keymap.set('n', '<leader>fg', '<cmd>Telescope live_grep<cr>', opts)
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, opts)
-vim.keymap.set('n', '<C-Up>', 'ddkkp', opts)
-vim.keymap.set('n', '<C-Down>', 'ddp', opts)
+vim.keymap.set('n', '<C-k>', 'ddkkp', opts)
+vim.keymap.set('n', '<C-j>', 'ddp', opts)
 vim.keymap.set('n', '<leader>-', '^i-- <Esc>', opts)
 vim.keymap.set('n', '<leader>/', '^i// <Esc>', opts)
 vim.keymap.set('n', '<leader>#', '^i# <Esc>', opts)
 vim.keymap.set('n', '<leader>w', vim.cmd.w, opts)
 -- Increase/Decrease horizontal split height
-vim.keymap.set('n', '<C-Up>', ':resize +2<CR>', opts)       -- Increase height
-vim.keymap.set('n', '<C-Down>', ':resize -2<CR>', opts)     -- Decrease height
+vim.keymap.set('n', '<C-Up>', ':resize +2<CR>', opts) -- Increase height
+vim.keymap.set('n', '<C-Down>', ':resize -2<CR>', opts) -- Decrease height
 
 -- Increase/Decrease vertical split width
-vim.keymap.set('n', '<C-Right>', ':vertical resize +2<CR>', opts)  -- Increase width
-vim.keymap.set('n', '<C-Left>', ':vertical resize -2<CR>', opts)   -- Decrease width
+vim.keymap.set('n', '<C-Right>', ':vertical resize -2<CR>', opts) -- Increase width
+vim.keymap.set('n', '<C-Left>', ':vertical resize +2<CR>', opts) -- Decrease width
 --Insert mode mappings
 --vim.keymap.set('i', 'jk', '<Esc>', opts)
 --map('i', '<leader>em', '<Esc>', opts)
