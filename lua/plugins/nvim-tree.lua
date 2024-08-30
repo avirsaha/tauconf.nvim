@@ -20,13 +20,35 @@ return {
           hide_gitignored = true, -- Hide files ignored by Git
           hide_by_name = { '.git', 'node_modules' }, -- Custom filters
         },
-        follow_current_file = true, -- Follow the current file
       },
-      git_status = {
-        symbols = {
-          added = '✚',
-          modified = '●',
-          removed = '✖',
+      follow_current_file = true, -- Follow the current file
+      default_component_configs = {
+        icon = {
+          folder_closed = '📁',
+          folder_open = '📂',
+          folder_empty = '🗀',
+          default = '',
+        },
+
+        modified = {
+          symbol = '[+]',
+        },
+        name = {
+          trailing_slash = false,
+          use_git_status_colors = true,
+        },
+        git_status = {
+          symbols = {
+            added = '✚',
+            modified = '🛠️',
+            deleted = '🗑️',
+            renamed = '📝',
+            untracked = '🔍',
+            ignored = '❗',
+            unstaged = '🔻',
+            staged = '✅',
+            conflict = '❌',
+          },
         },
       },
       -- Optional key mappings
