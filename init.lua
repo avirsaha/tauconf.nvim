@@ -9,6 +9,7 @@ require 'settings'
 
 -- Load plugins
 require 'lazy-setup'
+require 'lsp.lspconfig'
 
 -- Set up key mappings
 require 'keymaps'
@@ -22,7 +23,6 @@ require 'keymaps'
 -- require('plugins/lualine')
 -- require('plugins/telescope')
 
-
 -- Load additional configurations for various plugins
 -- require('plugins.catppuccin')  -- Color scheme setup
 -- require('plugins.lualine')     -- Status line setup
@@ -35,4 +35,3 @@ require 'keymaps'
 -- require('plugins.fugitive')    -- Git integration setup
 -- require('plugins.gitsigns')    -- Git signs setup
 -- require('plugins.diffview')    -- Git diff view setup
-
