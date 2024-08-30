@@ -24,10 +24,10 @@ return {
       follow_current_file = true, -- Follow the current file
       default_component_configs = {
         icon = {
-          folder_closed = '📁',
-          folder_open = '📂',
-          folder_empty = '🗀',
-          default = '',
+          folder_closed = 'ðŸ“',
+          folder_open = 'ðŸ“‚',
+          folder_empty = 'ðŸ—€',
+          default = 'î˜’',
         },
 
         modified = {
@@ -39,15 +39,15 @@ return {
         },
         git_status = {
           symbols = {
-            added = '✚',
+            added = 'âœš',
             modified = 'M',
             deleted = 'D',
             renamed = 'R',
             untracked = 'U',
             ignored = '!',
-            unstaged = '',
-            staged = '�',
-            conflict = '',
+            unstaged = '🔻',
+            staged = '🔺',
+            conflict = 'X',
           },
         },
       },
