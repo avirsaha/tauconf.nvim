@@ -1,0 +1,23 @@
+name: LuaLint
+
+# Run on pushes and pull requests
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout the repository code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Install luarocks and luacheck
+      - name: Install luarocks and luacheck
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y luarocks
+          luarocks install luacheck
+
+      # Step 3: Run luacheck on Lua files
+      - name: Run LuaLint (luacheck)
+        run: luacheck .
