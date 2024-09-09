@@ -1,5 +1,11 @@
 # tauconf.nvim
 
+![Neovim](https://img.shields.io/badge/Neovim-0.8+-green?logo=neovim&style=for-the-badge)
+![Lua](https://img.shields.io/badge/Lua-5.1-blue?logo=lua&style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&style=for-the-badge)
+![ripgrep](https://img.shields.io/badge/ripgrep-lightgrey?logo=grep&style=for-the-badge)
+
+
 **tauconf.nvim** is a customized Neovim configuration tailored to optimize your development workflow. This setup integrates essential plugins, a cohesive color scheme, and optimized keybindings to enhance productivity.
 
 ## Table of Contents
