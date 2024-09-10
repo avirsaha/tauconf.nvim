@@ -10,11 +10,11 @@ return {
     -- Optional: Configure Catppuccin options
     require('catppuccin').setup {
       flavour = 'macchiato', -- or 'latte', 'frappe', 'mocha'
-      integrations = {
-        nvimtree = true,
-        lualine = true, -- Ensure Lualine integration
+--      integrations = {
+ --       nvimtree = true,
+  --      lualine = true, -- Ensure Lualine integration
         -- Add other integrations here
-      },
+  --    },
     }
   end,
 }

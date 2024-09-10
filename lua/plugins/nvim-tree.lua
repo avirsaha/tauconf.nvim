@@ -24,9 +24,9 @@ return {
       follow_current_file = true, -- Follow the current file
       default_component_configs = {
         icon = {
-          folder_closed = 'ðŸ“',
-          folder_open = 'ðŸ“‚',
-          folder_empty = 'ðŸ—€',
+          folder_closed = '📁',
+          folder_open = '📂',
+          folder_empty = '📁?',
           default = 'î˜’',
         },
 
