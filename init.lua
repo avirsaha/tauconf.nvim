@@ -9,7 +9,7 @@ require 'settings'
 
 -- Load plugins
 require 'lazy-setup'
-require 'lsp.lspconfig'
+-- require 'lsp.servers'
 
 -- Set up key mappings
 require 'keymaps'
