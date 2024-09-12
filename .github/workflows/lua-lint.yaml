@@ -17,14 +17,19 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y luarocks
           luarocks install --local luacheck
+          # Export LuaRocks path to the environment
+          echo "$(luarocks path --bin)" >> $GITHUB_ENV
+          echo "$(luarocks path)" >> $GITHUB_ENV
 
       # Step 3: Add local luarocks bin to PATH
       - name: Add luarocks bin to PATH
         run: |
-          eval $(luarocks path --bin)
-          echo "$PATH"
-        shell: bash
+          export PATH=$HOME/.luarocks/bin:$PATH
+          luarocks path
+          luacheck --version
 
       # Step 4: Run luacheck on Lua files
       - name: Run LuaLint (luacheck)
-        run: luacheck .
+        run: |
+          export PATH=$HOME/.luarocks/bin:$PATH
+          luacheck .
