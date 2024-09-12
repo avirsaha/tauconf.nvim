@@ -11,13 +11,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Step 2: Install luarocks and luacheck
-      - name: Install luarocks and luacheck
+      # Step 2: Install luarocks and luacheck locally
+      - name: Install luarocks and luacheck locally
         run: |
           sudo apt-get update
           sudo apt-get install -y luarocks
-          luarocks install luacheck
+          luarocks install --local luacheck
+          echo "$(luarocks path --bin)" >> $GITHUB_ENV
 
-      # Step 3: Run luacheck on Lua files
+      # Step 3: Add local luarocks bin to PATH
+      - name: Setup PATH for luarocks
+        run: echo "${{ env.LUAROCKS_BIN }}" >> $GITHUB_ENV
+
+      # Step 4: Run luacheck on Lua files
       - name: Run LuaLint (luacheck)
         run: luacheck .
