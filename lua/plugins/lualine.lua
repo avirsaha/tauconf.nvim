@@ -6,7 +6,7 @@ return {
     -- Load lualine with your custom configuration
     require('lualine').setup {
       options = {
-        theme = 'mountaineer', -- Choose a theme (replace with your preferred theme)
+        theme = 'iceberg_dark', -- Choose a theme (replace with your preferred theme)
         section_separators = '|', -- No separators between sections
         component_separators = '|', -- No separators between components
         icons_enabled = true, -- Enable icons if you have nvim-web-devicons installed

@@ -35,7 +35,7 @@ set.splitbelow = true -- Horizontal splits below
 set.scrolloff = 10 -- Keep 8 lines visible when scrolling
 
 -- Clipboard
-set.clipboard = 'unnamedplus' -- Use system clipboard
+-- set.clipboard = 'unnamedplus' -- Use system clipboard
 
 -- Backup and undo
 set.backup = false -- Disable backups
