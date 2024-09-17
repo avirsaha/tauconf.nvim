@@ -14,6 +14,8 @@ require 'lazy-setup'
 -- Set up key mappings
 require 'keymaps'
 
+require 'lsp.servers'
+
 -- Set up LSP configurations
 -- require('lsp')
 

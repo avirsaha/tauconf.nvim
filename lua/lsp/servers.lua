@@ -1,6 +1,3 @@
-
-M = {}
-
 local lspconfig = require("lspconfig")
 
 -- Custom on_attach function for keymaps
@@ -19,7 +16,9 @@ local on_attach = function(client, bufnr)
 end
 
 -- Setting up LSP servers
+--[[
 local servers = { "pyright", "ts_ls", "clangd" } -- List your LSPs here
+
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup({
@@ -29,5 +28,11 @@ for _, lsp in ipairs(servers) do
     },
   })
 end
+--]]
+-- Pyright for Python
+lspconfig.pyright.setup {}
 
-return M
+-- Clangd for C/C++
+lspconfig.clangd.setup {}
+
+return {}
