@@ -2,9 +2,10 @@
 
 ![Neovim](https://img.shields.io/badge/Neovim-0.8+-brightgreen?logo=neovim&style=for-the-badge)
 ![Lua](https://img.shields.io/badge/Lua-5.1-2C2D72?logo=lua&style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-2.34.1-F05032?logo=git&style=for-the-badge)
-![LuaLint](https://img.shields.io/badge/LuaLint-luacheck_v0.25.0-2CA5E0?logo=lua&style=for-the-badge)
-![ripgrep](https://img.shields.io/badge/ripgrep-12.1.1-9cf?logo=grep&style=for-the-badge)
+[![LuaLint](https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml/badge.svg)](https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+
 
 
 **tauconf.nvim** is a customized Neovim configuration tailored to optimize your development workflow. This setup integrates essential plugins, a cohesive color scheme, and optimized keybindings to enhance productivity.
