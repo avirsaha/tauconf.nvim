@@ -1,8 +1,8 @@
 return {
   'TheNiteCoder/mountaineer.vim',
-  name = 'mountaineer', 
+  name = 'mountaineer',
   priority = 1000,
-  config = function()
+   config = function()
     vim.cmd 'set background=dark'
     vim.cmd 'colorscheme mountaineer'
 

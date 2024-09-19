@@ -34,7 +34,7 @@ shortcut = {
   [[]],
   [[]],
     [[The best tools are the ones that bend to your will,]],
-  [[not the ones that force you to change your ways.]], 
+  [[not the ones that force you to change your ways.]],
   [[                                                - a random tau]],}
 }
 }
