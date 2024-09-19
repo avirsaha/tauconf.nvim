@@ -26,9 +26,13 @@ return {
 
     --local map = require('utils').keymap
 
-    vim.keymap.set('n', '<leader>gs', '<cmd>Gitsigns stage_hunk<CR>', { noremap = true, silent = true, desc = 'Stage hunk' })
-    vim.keymap.set('n', '<leader>gu', '<cmd>Gitsigns undo_stage_hunk<CR>', { noremap = true, silent = true, desc = 'Undo stage hunk' })
-    vim.keymap.set('n', '<leader>gp', '<cmd>Gitsigns preview_hunk<CR>', { noremap = true, silent = true, desc = 'Preview hunk' })
-    vim.keymap.set('n', '<leader>gd', '<cmd>Gitsigns diffthis<CR>', { noremap = true, silent = true, desc = 'Git diff' })
+    vim.keymap.set('n', '<leader>gs', '<cmd>Gitsigns stage_hunk<CR>',
+      { noremap = true, silent = true, desc = 'Stage hunk' })
+    vim.keymap.set('n', '<leader>gu', '<cmd>Gitsigns undo_stage_hunk<CR>',
+      { noremap = true, silent = true, desc = 'Undo stage hunk' })
+    vim.keymap.set('n', '<leader>gp', '<cmd>Gitsigns preview_hunk<CR>',
+      { noremap = true, silent = true, desc = 'Preview hunk' })
+    vim.keymap.set('n', '<leader>gd', '<cmd>Gitsigns diffthis<CR>',
+      { noremap = true, silent = true, desc = 'Git diff' })
   end,
 }

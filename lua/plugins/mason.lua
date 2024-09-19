@@ -6,7 +6,7 @@ return {
     end,
   },
   {
-    "neovim/nvim-lspconfig", 
+    "neovim/nvim-lspconfig",
   },
   {
     "williamboman/mason-lspconfig.nvim",

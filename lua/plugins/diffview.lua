@@ -13,7 +13,6 @@ return {
           ['<leader>do'] = { 'DiffviewOpen' }, -- Open diffview
           ['<leader>dc'] = { 'DiffviewClose' }, -- Close diffview
           ['<leader>dp'] = { 'DiffviewFocusFiles' }, -- Focus files
-          ['<leader>do'] = { 'DiffviewToggleFiles' }, -- Toggle files
         },
         file_panel = {
           ['<leader>dp'] = { 'DiffviewFocusFiles' }, -- Focus files
