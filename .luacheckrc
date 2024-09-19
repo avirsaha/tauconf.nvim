@@ -1,11 +1,4 @@
-luacheck = {
-    
-    globals = {
-        vim = true,
-    },
-    std = "lua51",
-    ignore = {
+ignore = {
         "211",
         "113"
     }
-}
