@@ -248,7 +248,7 @@ To further customize your setup:
    - Check for conflicting plugins or excessive configuration.
    - Profile startup time using `:profile` commands.
 
-For unresolved issues, please visit the [issue tracker](https://github.com/yourusername/tauconf.nvim/issues) or consult the [troubleshooting guide](https://github.com/yourusername/tauconf.nvim/blob/main/CONTRIBUTING.md).
+For unresolved issues, please visit the [issue tracker](https://github.com/avirsaha/tauconf.nvim/issues) or consult the [troubleshooting guide](https://github.com/yourusername/tauconf.nvim/blob/main/CONTRIBUTING.md).
 
 ## FAQ
 
