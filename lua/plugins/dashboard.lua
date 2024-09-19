@@ -29,13 +29,13 @@ shortcut = {
   -- action can be a functino type, e.g.
   -- action = func(path) vim.cmd('Telescope find_files cwd=' .. path) end
   project = { enable = false, limit = 8, icon = 'your icon', label = '', action = 'Telescope find_files cwd=' },
-  mru = {enable = false, limit = 10, icon = 'your icon', label = '', cwd_only = false },
+  mru = {enable = false, limit = 5, icon = '𝜏', label = 'Recent Files:', cwd_only = false },
   footer = {[[]],
   [[]],
   [[]],
     [[The best tools are the ones that bend to your will,]],
   [[not the ones that force you to change your ways.]],
-  [[                                                - a random tau]],}
+  [[                                                   - a wise tau]],}
 }
 }
   end,
