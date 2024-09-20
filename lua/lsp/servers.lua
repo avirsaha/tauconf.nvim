@@ -1,11 +1,9 @@
 local lspconfig = require("lspconfig")
 
--- Custom on_attach function for keymaps
--- local on_attach = function(client, bufnr)
-  -- local opts = { noremap = true, silent = true, buffer = bufnr }
-
+local on_attach = function(client, bufnr)
+  local opts = { noremap = true, silent = true, buffer = bufnr }
   -- LSP keymaps
-  --[[
+
   vim.keymap.set('n', 'gd', vim.lsp.buf.definition, opts)
   vim.keymap.set('n', 'K', vim.lsp.buf.hover, opts)
   vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, opts)
@@ -15,26 +13,35 @@ local lspconfig = require("lspconfig")
   vim.keymap.set('n', 'gr', vim.lsp.buf.references, opts)
   vim.keymap.set('n', '<leader>f', function() vim.lsp.buf.format { async = true } end, opts)
 end
---]]
 
--- Setting up LSP servers
---[[
-local servers = { "pyright", "ts_ls", "clangd" } -- List your LSPs here
+local handlers = {
+  function(server_name)
+    require("lspconfig")[server_name].setup {
+      on_attach = on_attach,
+    }
+  end,
+}
+-- Lua language server for lua
+lspconfig.lua_ls.setup {
+  on_attach = on_attach,
+  settings = {
+    lua = {
+      diagnostics = {
+        globals = { "vim" }
+      }
+    }
+  }
+}
 
-
-for _, lsp in ipairs(servers) do
-  lspconfig[lsp].setup({
-    on_attach = on_attach, -- Attach custom keymaps
-    flags = {
-      debounce_text_changes = 150,
-    },
-  })
-end
---]]
 -- Pyright for Python
-lspconfig.pyright.setup {}
+lspconfig.pyright.setup {
+  on_attach = on_attach
+}
 
 -- Clangd for C/C++
-lspconfig.clangd.setup {}
+lspconfig.clangd.setup {
+  on_attach = on_attach
+}
 
+require("mason-lspconfig").setup({ handlers = handlers })
 return {}
