@@ -30,7 +30,7 @@ return {
           noir_6 = '#8b8b8b',        -- Dark-medium gray for shadows, background accents, or inactive elements.
           noir_7 = '#6f6f6f',        -- Dark gray for deeper shadows, background highlights, or low-key accents.
           noir_8 = '#525252',        -- Charcoal gray for UI borders or secondary background areas.
-          noir_9 = '#393939',        -- Very dark gray to outline elements and add subtle depth without blending into the background.
+          noir_9 = '#393939',        -- Very dark gray to outline element
           comment_color = '#161616', -- A lighter gray for comments to ensure they stand out without being too harsh.
         }
       }
