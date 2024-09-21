@@ -48,16 +48,17 @@ Happy coding,
 
 P.S. Once you’re familiar with everything, you can delete this message. It’s your config now!
 --]]
+
 -- Set up Neovim settings
 require 'settings'
 
 -- Load plugins
 require 'lazy-setup'
--- require 'lsp.servers'
 
 -- Set up key mappings
 require 'keymaps'
 
+-- Set up lsp server config
 require 'lsp.servers'
 
 -- Optionally, you can add more configuration files as needed
