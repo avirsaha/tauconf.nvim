@@ -10,6 +10,7 @@ vim.keymap.set('n', '<leader>#', '^i# <Esc>', opts)   -- Insert # at beginning o
 vim.keymap.set('n', '<leader>w', vim.cmd.w, opts)     -- Save file
 vim.keymap.set('n', '<leader>m', vim.cmd.Mason, opts) -- Open Mason (LSP server management)
 vim.keymap.set('n', '<leader>q', vim.cmd.q, opts)     -- Quit Neovim
+vim.keymap.set('n', '<leader>dd', vim.cmd.Dashboard, opts)
 
 -- Buffer navigation
 vim.keymap.set('n', '<leader>bn', ':bnext<CR>', opts)   -- Go to next buffer

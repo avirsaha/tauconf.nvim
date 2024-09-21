@@ -1,3 +1,10 @@
+local arts = {
+  "header_art_1",
+  "header_art_3",
+  "header_art_2",
+}
+local random_key = arts[math.random(#arts)]
+
 return {
   'nvimdev/dashboard-nvim',
   dependencies = { 'nvim-tree/nvim-web-devicons' },
@@ -10,8 +17,7 @@ return {
       shuffle_letter = true,      --  default is true, shortcut 'letter' will be randomize, set to false to have ordered letter.
       change_to_vcs_root = false, -- default is false,for open file in hyper mru. it will change to the root of vcs
       config = {
-
-        header = require('ascii-art').header_art_1,
+        header = require('ascii-art')[random_key],
         shortcut = {
           -- action can be a function type
           { desc = 'Highly customizable neovim config' },
