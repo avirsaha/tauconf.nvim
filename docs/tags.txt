@@ -1,0 +1,3 @@
+tauconf-is	tauconf.txt	/*tauconf-is*
+tauconf-is-not	tauconf.txt	/*tauconf-is-not*
+tauconf.nvim	tauconf.txt	/*tauconf.nvim*
