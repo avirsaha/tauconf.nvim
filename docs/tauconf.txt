@@ -1,3 +1,23 @@
-tauconf-is	tauconf.txt	/*tauconf-is*
-tauconf-is-not	tauconf.txt	/*tauconf-is-not*
-tauconf.nvim	tauconf.txt	/*tauconf.nvim*
+================================================================================
+INTRODUCTION                                                  *tauconf.nvim*
+
+Tauconf.nvim is a project to help you get started on your Neovim journey.
+
+                                                            *tauconf-is-not*
+It is not:
+- A complete framework for every plugin under the sun.
+- A place to add every plugin that could ever be useful.
+
+                                                                *tauconf-is*
+It is:
+- A foundation that offers a solid start for the most common "IDE" features:
+    - Autocompletion
+    - Go to definition
+    - Find references
+    - Fuzzy finding
+    - And hinting at what more can be done :)
+- A place to _kickstart_ your journey.
+    - You should fork this project and customize it to match your style and preferences. If you prefer not to do that, there are likely other projects that may suit you better (and that's perfectly fine!)!
+
+ vim:tw=78:ts=8:ft=help:norl:
+
