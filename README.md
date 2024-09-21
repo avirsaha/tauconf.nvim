@@ -8,7 +8,7 @@
 
 
 
-**tauconf.nvim** is a customized Neovim configuration tailored to optimize your development workflow. This setup integrates essential plugins, a cohesive color scheme, and optimized keybindings to enhance productivity.
+**tauconf.nvim** is a customized Neovim configuration tailored to optimize my(and hopefully your) development workflow. This setup integrates essential plugins, a cohesive color scheme, and optimized keybindings to enhance productivity.
 
 ## Table of Contents
 
@@ -41,11 +41,12 @@
 ## Features
 
 - **Plugins**: Curated selection of essential plugins to enhance functionality and performance.
-- **Color Scheme**: `catppuccin` for a visually appealing and consistent interface.
+- **Color Scheme**: `custom` for a visually appealing and consistent interface.
 - **Keybindings**: Custom shortcuts for improved workflow and efficiency.
 - **LSP Integration**: Advanced Language Server Protocol support for superior code editing.
 - **File Explorer**: `nvim-tree` for intuitive file navigation.
 - **Status Line**: `lualine.nvim` for a clean and informative status bar.
+- **tree-sitter and more*
 
 ## Dependencies
 
@@ -143,9 +144,13 @@ The configuration is organized as follows:
 ├── init.lua         -- Main configuration file
 ├── lua/
 │   ├── plugins/     -- Plugin configurations
+|   |   ├── all plugin modules
 │   ├── settings.lua -- General settings (e.g., tabs, appearance)
 │   ├── keymaps.lua  -- Custom keybindings
+|   ├── lazy-setup.lua
+|   ├── health.lua
 │   └── lsp/         -- LSP configurations
+    |   ├── servers.lua -- Lsp config
 ```
 
 ## Usage
