@@ -2,10 +2,41 @@
   <img src="https://github.com/avirsaha/tauconf.nvim/blob/master/backgrounds/logo_small.png" alt="tauconf.nvim logo">
 </p>
 
-![Neovim](https://img.shields.io/badge/Neovim-0.8+-brightgreen?logo=neovim&style=for-the-badge)
-![Lua](https://img.shields.io/badge/Lua-5.1-2C2D72?logo=lua&style=for-the-badge)
-[![LuaLint](https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml/badge.svg)](https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml)
-![License](https://img.shields.io/badge/license-MIT-green)
+<div align="center"><p>
+    <a href="https://github.com/avirsaha/tauconf.nvim/releases/latest">
+      <img alt="Latest release" src="https://img.shields.io/github/v/release/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=5aad54&logoColor=FFFFFF&labelColor=1d431f" />
+    </a>
+    <a href="https://github.com/avirsaha/tauconf.nvim/pulse">
+      <img alt="Last commit" src="https://img.shields.io/github/last-commit/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=2a91d2&logoColor=FFFFFF&labelColor=1d431f" />
+    </a>
+    <a href="https://github.com/avirsaha/tauconf.nvim/blob/main/LICENSE">
+      <img alt="License" src="https://img.shields.io/github/license/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=f94f9c&logoColor=FFFFFF&labelColor=1d431f" />
+    </a>
+    <a href="https://github.com/avirsaha/tauconf.nvim/stargazers">
+      <img alt="Stars" src="https://img.shields.io/github/stars/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=378d50&logoColor=FFFFFF&labelColor=1d431f" />
+    </a>
+    <a href="https://github.com/avirsaha/tauconf.nvim/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/avirsaha/tauconf.nvim?style=for-the-badge&logo=bilibili&color=5aad54&logoColor=FFFFFF&labelColor=1d431f" />
+    </a>
+    <a href="https://github.com/avirsaha/tauconf.nvim">
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/avirsaha/tauconf.nvim?color=2a91d2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=FFFFFF&labelColor=1d431f" />
+    </a>
+    <a>
+      <img alt="Neovim" src="https://img.shields.io/badge/Neovim-0.8+-brightgreen?logo=neovim&style=for-the-badge&color=378d50&logoColor=FFFFFF&labelColor=1d431f" />
+    </a>
+    <a>
+      <img alt="Lua" src="https://img.shields.io/badge/Lua-5.1-2C2D72?logo=lua&style=for-the-badge&color=5aad54&logoColor=FFFFFF&labelColor=1d431f" />
+    </a>
+    <a href="https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml">
+      <img alt="LuaLint" src="https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml/badge.svg?style=for-the-badge&logo=github&color=f94f9c&logoColor=FFFFFF&labelColor=1d431f" />
+    </a>
+    <a>
+      <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge&color=046463&logoColor=FFFFFF&labelColor=1d431f" />
+    </a>
+</p></div>
+
+
+
 
 
 
