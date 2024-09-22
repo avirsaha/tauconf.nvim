@@ -1,3 +1,4 @@
+local opts = { noremap = true, silent = true }
 return {
   'akinsho/toggleterm.nvim',
   version = '*',

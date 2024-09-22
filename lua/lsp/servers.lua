@@ -1,6 +1,6 @@
 local lspconfig = require("lspconfig")
 
-local on_attach = function(client, bufnr)
+local on_attach = function(_client, bufnr)
   local opts = { noremap = true, silent = true, buffer = bufnr }
   -- LSP keymaps
 
