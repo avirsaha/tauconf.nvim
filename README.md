@@ -2,46 +2,19 @@
   <img src="https://github.com/avirsaha/tauconf.nvim/blob/master/backgrounds/logo_small.png" alt="tauconf.nvim logo">
 </p>
 
-<div align="center"><p>
-    <a href="https://github.com/avirsaha/tauconf.nvim/releases/latest">
-      <img alt="Latest release" src="https://img.shields.io/github/v/release/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=5aad54&logoColor=FFFFFF&labelColor=1d431f" />
-    </a>
-    <a href="https://github.com/avirsaha/tauconf.nvim/pulse">
-      <img alt="Last commit" src="https://img.shields.io/github/last-commit/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=2a91d2&logoColor=FFFFFF&labelColor=1d431f" />
-    </a>
-    <a href="https://github.com/avirsaha/tauconf.nvim/blob/main/LICENSE">
-      <img alt="License" src="https://img.shields.io/github/license/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=f94f9c&logoColor=FFFFFF&labelColor=1d431f" />
-    </a>
-    <a href="https://github.com/avirsaha/tauconf.nvim/stargazers">
-      <img alt="Stars" src="https://img.shields.io/github/stars/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=378d50&logoColor=FFFFFF&labelColor=1d431f" />
-    </a>
-    <a href="https://github.com/avirsaha/tauconf.nvim/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/avirsaha/tauconf.nvim?style=for-the-badge&logo=bilibili&color=5aad54&logoColor=FFFFFF&labelColor=1d431f" />
-    </a>
-    <a href="https://github.com/avirsaha/tauconf.nvim">
-      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/avirsaha/tauconf.nvim?color=2a91d2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=FFFFFF&labelColor=1d431f" />
-    </a>
-    <a>
-      <img alt="Neovim" src="https://img.shields.io/badge/Neovim-0.8+-brightgreen?logo=neovim&style=for-the-badge&color=378d50&logoColor=FFFFFF&labelColor=1d431f" />
-    </a>
-    <a>
-      <img alt="Lua" src="https://img.shields.io/badge/Lua-5.1-2C2D72?logo=lua&style=for-the-badge&color=5aad54&logoColor=FFFFFF&labelColor=1d431f" />
-    </a>
-    <a href="https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml">
-      <img alt="LuaLint" src="https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml/badge.svg?style=for-the-badge&logo=github&color=f94f9c&logoColor=FFFFFF&labelColor=1d431f" />
-    </a>
-    <a>
-      <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge&color=046463&logoColor=FFFFFF&labelColor=1d431f" />
-    </a>
-</p></div>
-
-
-
-
-
-
 
 **tauconf.nvim** is a customized Neovim configuration tailored to optimize my(and hopefully your) development workflow. This setup integrates essential plugins, a cohesive color scheme, and optimized keybindings to enhance productivity.
+
+|  | **[Documentation](https://github.com/avirsaha/tauconf.nvim/wiki)** · **[Tutorials](https://github.com/avirsaha/tauconf.nvim/wiki#tutorials)** |
+|---|---|
+| **Open Source & License** | [![MIT](https://img.shields.io/github/license/avirsaha/tauconf.nvim?style=for-the-badge&color=5aad54&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/blob/main/LICENSE) [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge&color=046463&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/blob/main/LICENSE) |
+| **Latest Release & CI** | [![Latest release](https://img.shields.io/github/v/release/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=5aad54&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/releases/latest) [![Last commit](https://img.shields.io/github/last-commit/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=2a91d2&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/pulse) [![LuaLint](https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml/badge.svg?style=for-the-badge&logo=github&color=f94f9c&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml) |
+| **Community & Code** | [![Stars](https://img.shields.io/github/stars/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=378d50&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/stargazers) [![Issues](https://img.shields.io/github/issues/avirsaha/tauconf.nvim?style=for-the-badge&logo=bilibili&color=5aad54&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/issues) [![Repo Size](https://img.shields.io/github/repo-size/avirsaha/tauconf.nvim?color=2a91d2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim) |
+| **Technical Info** | [![Neovim](https://img.shields.io/badge/Neovim-0.8+-brightgreen?logo=neovim&style=for-the-badge&color=378d50&logoColor=FFFFFF&labelColor=1d431f)](https://neovim.io) [![Lua](https://img.shields.io/badge/Lua-5.1-2C2D72?logo=lua&style=for-the-badge&color=5aad54&logoColor=FFFFFF&labelColor=1d431f)](https://www.lua.org/) |
+
+
+
+
 
 ## Table of Contents
 
