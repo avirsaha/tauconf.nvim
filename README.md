@@ -1,5 +1,3 @@
-# tauconf.nvim
-
 <p align="center">
   <img src="https://github.com/avirsaha/tauconf.nvim/blob/master/backgrounds/logo_small.png" alt="tauconf.nvim logo">
 </p>
