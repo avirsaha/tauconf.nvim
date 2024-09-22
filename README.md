@@ -3,9 +3,9 @@
 </p>
 
 
-**tauconf.nvim** is a customized Neovim configuration tailored to optimize my(and hopefully your) development workflow. This setup integrates essential plugins, a cohesive color scheme, and optimized keybindings to enhance productivity.
+_tauconf.nvim_ is a customized [Neovim](https://en.wikipedia.org/wiki/Vim_(text_editor)#Neovim) configuration primarily written in [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language)), aimed at optimizing development workflows. This setup includes essential plugins, a consistent color scheme, and efficient keybindings to improve productivity.
 
-|  | **[Documentation](https://github.com/avirsaha/tauconf.nvim/wiki)** · **[Tutorials](https://github.com/avirsaha/tauconf.nvim/wiki#tutorials)** |
+|  | **[Documentation](https://github.com/avirsaha/tauconf.nvim/wiki)** · **[Tutorials](https://github.com/avirsaha/tauconf.nvim/wiki#tutorials)** . **[Changes](https://github.com/avirsaha/tauconf.nvim/wiki#tutorials)**|
 |---|---|
 | **Open Source & License** | [![MIT](https://img.shields.io/github/license/avirsaha/tauconf.nvim?style=for-the-badge&color=5aad54&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/blob/main/LICENSE) [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge&color=046463&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/blob/main/LICENSE) |
 | **Latest Release & CI** | [![Latest release](https://img.shields.io/github/v/release/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=5aad54&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/releases/latest) [![Last commit](https://img.shields.io/github/last-commit/avirsaha/tauconf.nvim?style=for-the-badge&logo=starship&color=2a91d2&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/pulse) [![LuaLint](https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml/badge.svg?style=for-the-badge&logo=github&color=f94f9c&logoColor=FFFFFF&labelColor=1d431f)](https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml) |
