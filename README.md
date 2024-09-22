@@ -1,5 +1,6 @@
 # tauconf.nvim
 
+![tauconf.nvim](https://github.com/avirsaha/tauconf.nvim/blob/master/backgrounds/taulogo.png)
 ![Neovim](https://img.shields.io/badge/Neovim-0.8+-brightgreen?logo=neovim&style=for-the-badge)
 ![Lua](https://img.shields.io/badge/Lua-5.1-2C2D72?logo=lua&style=for-the-badge)
 [![LuaLint](https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml/badge.svg)](https://github.com/avirsaha/tauconf.nvim/actions/workflows/lua-lint.yaml)
