@@ -17,7 +17,7 @@ return {
       shuffle_letter = true,      --  default is true, shortcut 'letter' will be randomize, set to false to have ordered letter.
       change_to_vcs_root = false, -- default is false,for open file in hyper mru. it will change to the root of vcs
       config = {
-        header = require('ascii-art')[random_key],
+        header = require('tvim.ascii-art')[random_key],
         shortcut = {
           -- action can be a function type
           { desc = 'Highly customizable neovim config' },

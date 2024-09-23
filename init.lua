@@ -50,16 +50,16 @@ P.S. Once you’re familiar with everything, you can delete this message. It’s
 --]]
 
 -- Set up Neovim settings
-require 'settings'
+require 'tvim.settings'
 
 -- Load plugins
-require 'lazy-setup'
+require 'tvim.lazy-setup'
 
 -- Set up key mappings
-require 'keymaps'
+require 'tvim.keymaps'
 
 -- Set up lsp server config
-require 'lsp.servers'
+require 'tvim.lsp.servers'
 
 -- Optionally, you can add more configuration files as needed
 -- For example, if you have a specific configuration file for different plugins,
