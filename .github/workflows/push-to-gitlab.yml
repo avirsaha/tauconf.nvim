@@ -23,6 +23,7 @@ jobs:
       - name: Push to GitLab
         env:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+          GITLAB_REPO: ${{ secrets.GITLAB_REPO }}
         run: |
-          git remote add gitlab ${{ secrets.GITLAB_REPO }}
+          git remote add gitlab https://oauth2:${GITLAB_TOKEN}@${GITLAB_REPO}
           git push gitlab master --force --set-upstream
