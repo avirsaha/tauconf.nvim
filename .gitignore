@@ -3,3 +3,4 @@
 *.un~
 *~
 lazy-lock.json
+*.bat
