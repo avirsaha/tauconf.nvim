@@ -48,3 +48,4 @@ set.updatetime = 300
 
 -- Color scheme
 -- vim.cmd 'colorscheme catppuccin' -- Set the color scheme -- set from catppuccin.lua
+-- vim.cmd 'colorscheme mountaineer'
