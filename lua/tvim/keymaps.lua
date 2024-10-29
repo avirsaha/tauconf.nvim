@@ -1,9 +1,9 @@
 local opts = { noremap = true, silent = true }
 
 -- Normal mode mappings
-vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, opts)   -- Open file explorer
-vim.keymap.set('n', '<C-k>', 'ddkkp', opts)           -- Move line up
-vim.keymap.set('n', '<C-j>', 'ddp', opts)             -- Move line down
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, opts) -- Open file explorer
+-- vim.keymap.set('n', '<C-k>', 'ddkkp', opts)           -- Move line up
+-- vim.keymap.set('n', '<C-j>', 'ddp', opts)             -- Move line down
 vim.keymap.set('n', '<leader>-', '^i-- <Esc>', opts)  -- Insert -- at beginning of the line
 vim.keymap.set('n', '<leader>/', '^i// <Esc>', opts)  -- Insert // at beginning of the line (comments)
 vim.keymap.set('n', '<leader>#', '^i# <Esc>', opts)   -- Insert # at beginning of the line (for shell comments)

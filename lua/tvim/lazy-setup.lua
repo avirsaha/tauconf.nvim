@@ -14,6 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup {
   { import = 'tvim.plugins' },
   { import = _lsp },
+  { import = 'tvim.colorschemes' },
   checker = {
     enabled = true,
     notify = false,
