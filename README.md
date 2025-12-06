@@ -37,8 +37,9 @@ _tauconf.nvim_ is a customized [Neovim](https://en.wikipedia.org/wiki/Vim_(text_
 12. [Credits and Acknowledgments](#credits-and-acknowledgments)
 13. [License](#license)
 14. [Contact](#contact)
-15. [Glossary](#glossary)
-16. [Changelog](#changelog)
+15. [Keymaps](#keymaps)
+16. [Glossary](#glossary)
+17. [Changelog](#changelog)
 
 ## Introduction
 
@@ -305,6 +306,87 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 For questions or further information, please reach out via the [issue tracker](https://github.com/yourusername/tauconf.nvim/issues) or directly on GitHub.
 
+## Keymaps
+
+
+This section provides a quick reference for the custom key mappings used in this Neovim configuration. The default **leader key** is set to `\` (backslash).
+
+###  General & Utility
+
+| Keymap | Plugin | Description |
+| :--- | :--- | :--- |
+| `<leader>f` | `conform.nvim` (Formatter) | Format the current file or a selected range (in visual mode). |
+
+---
+
+###  Quick Navigation (Harpoon)
+
+Harpoon allows you to quickly mark and jump between important files.
+
+| Keymap | Action | Description |
+| :--- | :--- | :--- |
+| `<leader>a` | `harpoon:list():add()` | **Add** the current file to the harpoon list. |
+| `<C-e>` | `harpoon.ui:toggle_quick_menu()` | **Toggle** the quick-menu list for harpoon. |
+| `<C-h>` | `harpoon:list():select(1)` | Jump to the **first** file in the list. |
+| `<C-t>` | `harpoon:list():select(2)` | Jump to the **second** file in the list. |
+| `<C-n>` | `harpoon:list():select(3)` | Jump to the **third** file in the list. |
+| `<C-s>` | `harpoon:list():select(4)` | Jump to the **fourth** file in the list. |
+| `<C-S-P>` | `harpoon:list():prev()` | Jump to the **previous** file in the list. |
+| `<C-S-N>` | `harpoon:list():next()` | Jump to the **next** file in the list. |
+
+---
+
+###  Git Integration
+
+This setup uses a combination of `vim-fugitive` (for full Git commands) and `gitsigns.nvim` (for hunk-specific operations).
+
+#### **Fugitive (Full Git Commands)**
+
+| Keymap | Command | Description |
+| :--- | :--- | :--- |
+| `<leader>gs` | `:G<CR>` | Open the **Git status** window. |
+| `<leader>gc` | `:Gcommit<CR>` | Run **Git commit**. |
+| `<leader>gp` | `:Gpush<CR>` | Run **Git push**. |
+| `<leader>gl` | `:Glog<CR>` | Run **Git log**. |
+| `<leader>gd` | `:Gdiff<CR>` | Run **Git diff**. |
+
+#### **Gitsigns (Hunk Operations)**
+
+| Keymap | Command | Description |
+| :--- | :--- | :--- |
+| `<leader>gs` | `:Gitsigns stage_hunk<CR>` | **Stage** the hunk at the cursor (Overlaps with Fugitive's status in normal mode). |
+| `<leader>gu` | `:Gitsigns undo_stage_hunk<CR>` | **Undo staging** of the hunk at the cursor. |
+| `<leader>gp` | `:Gitsigns preview_hunk<CR>` | **Preview** the hunk contents. |
+| `<leader>gd` | `:Gitsigns diffthis<CR>` | **Diff** the current file against the Git index. |
+
+---
+
+####  Diff Viewing (`diffview.nvim`)
+
+| Keymap | Context | Command | Description |
+| :--- | :--- | :--- | :--- |
+| `<leader>do` | Normal | `DiffviewOpen` | **Open** the Diffview window. |
+| `<leader>dc` | Normal | `DiffviewClose` | **Close** the Diffview window. |
+| `<leader>dp` | Normal/File Panel | `DiffviewFocusFiles` | **Focus** on the file list panel. |
+| `<leader>dh` | File History Panel | `DiffviewFileHistory` | Show the **file history** (log). |
+
+---
+
+###  Completion and Snippets (`nvim-cmp`, `LuaSnip`, `nvim-autopairs`)
+
+These mappings are active in **Insert Mode** (`i`) and **Snippet Mode** (`s`).
+
+| Keymap | Mode | Component | Description |
+| :--- | :--- | :--- | :--- |
+| `<C-b>` | Insert | `nvim-cmp` | Scroll documentation **up** by 4 lines. |
+| `<C-f>` | Insert | `nvim-cmp` | Scroll documentation **down** by 4 lines. |
+| `<C-Space>` | Insert | `nvim-cmp` | Manually **trigger completion**. |
+| `<C-e>` | Insert | `nvim-cmp` | **Abort** completion. |
+| `<CR>` (Enter) | Insert | `nvim-cmp` | **Accept** the currently selected completion item. |
+| `<Tab>` | Insert, Snippet | `nvim-cmp`/`LuaSnip` | **Select next item** (completion) OR **Expand/Jump to next placeholder** (snippet). |
+| `<S-Tab>` (Shift+Tab) | Insert, Snippet | `nvim-cmp`/`LuaSnip` | **Select previous item** (completion) OR **Jump to previous placeholder** (snippet). |
+| `<M-e>` (Alt+E) | Insert | `nvim-autopairs` | **Fast wrap** a selection with a matching pair. |
+| `l` | Insert (during fast-wrap) | `nvim-autopairs` | **Complete** the fast wrap operation. |
 ## Glossary
 
 - **LSP**: [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) - a protocol that provides language-specific features such as code completion and diagnostics.
@@ -320,3 +402,4 @@ For questions or further information, please reach out via the [issue tracker](h
 For detailed updates and changes to **tauconf.nvim**, refer to the [CHANGELOG.md](https://github.com/yourusername/tauconf.nvim/blob/main/CHANGELOG.md).
 
 ---
+
