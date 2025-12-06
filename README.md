@@ -42,6 +42,9 @@ _tauconf.nvim_ is a customized [Neovim](https://en.wikipedia.org/wiki/Vim_(text_
 17. [Changelog](#changelog)
 
 ## Introduction
+<p align="center">
+  <img src="https://github.com/avirsaha/tauconf.nvim/blob/master/assets/dashboard.png" alt="tauconf.nvim dashboard">
+</p>
 
 **tauconf.nvim** is my personalized Neovim configuration designed to provide a comprehensive and efficient development environment. It features a collection of essential plugins, a well-chosen color scheme, and optimized keybindings, tailored for both new and experienced users.
 
@@ -402,4 +405,5 @@ These mappings are active in **Insert Mode** (`i`) and **Snippet Mode** (`s`).
 For detailed updates and changes to **tauconf.nvim**, refer to the [CHANGELOG.md](https://github.com/yourusername/tauconf.nvim/blob/main/CHANGELOG.md).
 
 ---
+
 
